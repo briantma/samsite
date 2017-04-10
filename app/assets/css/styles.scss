@@ -44,7 +44,7 @@ input, button, select, label{
 }
 
 .selected {
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
 }
 
 .navbar-nav>li>a.selected {
@@ -62,7 +62,7 @@ i.fa.fa-youtube-square.social__iconBox__yt, i.fa.fa-instagram.social__iconBox__i
 }
 
 .navbar-default .navbar-nav>li>a.social__iconBox__icon {
-    padding: 12px 6px; 
+    padding: 12px 6px;
     display: inline-block;
 }
 
@@ -98,7 +98,7 @@ li.socialIconsNav {
             top:50%;
             transform:translate(-50%, -50%);
             z-index:-5;
-        }        
+        }
     }
 }
 
@@ -121,7 +121,7 @@ li.socialIconsNav {
         &--Abs{
             position:absolute;
             top:50%;
-            
+
         }
         &--Fix{
             position: fixed;
@@ -135,7 +135,7 @@ li.socialIconsNav {
         }
     }
     &__chev {
-        
+
         height:25px;
         width:25px;
         color:white;
@@ -276,7 +276,7 @@ li.socialIconsNav {
                     left:0;
                 }
                 /*&:hover{
-                    
+
                     &>h3{
                         opacity:0 !important;
                     }
@@ -305,7 +305,7 @@ li.socialIconsNav {
                 background-size:cover;
                 background-position:center;
             }
-        }       
+        }
     }
 }
 
@@ -516,7 +516,7 @@ li.socialIconsNav {
             & a img {
                 opacity: 1;
                 transition: all 1s ease;
-            }   
+            }
         }
         &__igBox{
             display:inline-block;
@@ -528,7 +528,7 @@ li.socialIconsNav {
                 }
             }
             &__colour{
-                margin-left:0 !important;    
+                margin-left:0 !important;
                 &__ig{
                     width:43px;
                     margin-bottom:9px;
@@ -537,10 +537,10 @@ li.socialIconsNav {
                     right:7px;
                     opacity:0;
                     transition: all 1s ease;
-                }  
+                }
             }
         }
-               
+
     }
 }
 
@@ -580,8 +580,8 @@ li.socialIconsNav {
         &__container{
            width:100vw;
             &__video{
-                width: 900px;                 
-            } 
+                width: 900px;
+            }
         }
     }
 }*/
@@ -607,7 +607,7 @@ li.socialIconsNav {
         height:75%;
     }
 
-   
+
 }
 
 @media (max-width: 1074px) and (min-width:992px){
@@ -622,7 +622,7 @@ li.socialIconsNav {
         &__container {
             &__video {
                 height:100%;
-            }        
+            }
         }
     }
 }
@@ -632,9 +632,7 @@ li.socialIconsNav {
         &__container {
             &__video {
                 width:100%;
-            }        
+            }
         }
     }
 }
-
-
