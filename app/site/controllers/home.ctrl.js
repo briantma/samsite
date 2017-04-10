@@ -6,7 +6,7 @@
 		.controller("HomeCtrl", HomeCtrl);
 
 	function HomeCtrl($scope, $window, $state, $http, toastr){
-		document.getElementById('demovid').play();
+		// document.getElementById('demovid').play();
     var homeVm = this;
       homeVm.selected = "home";
   		homeVm.isSelected = isSelected;
@@ -19,7 +19,7 @@
     //         var servicesHeight = document.getElementById('cover').getBoundingClientRect().top;
     //         var aboutHeight = document.getElementById('about').getBoundingClientRect().top;
     //         var contactHeight = document.getElementById('contact').getBoundingClientRect().top;
-            
+
 		 //    $scope.$apply(function(){
 			//     if( offset<=1 ){
 			//         homeVm.opacity=0;
@@ -69,8 +69,8 @@
 		  //   scroll = function(c, a, b, i) {
 		  //       i++; if (i > 100) return;
 		  //       c.scrollTop = a + (b - a) / 100 * i;
-		  //       setTimeout(function(){ 
-		  //       	scroll(c, a, b, i); 
+		  //       setTimeout(function(){
+		  //       	scroll(c, a, b, i);
 				//     if (label != 'cover' && label != 'top'){
 			 //    		homeVm.selected = label;
 		  //  			} else {
@@ -104,7 +104,7 @@
   			}
   		}
 
-  		
+
       function route(num){
         if(num == 1){
           homeVm.selected="home"
@@ -134,7 +134,7 @@
   	// 					cont_name: homeVm.cont_name,
   	// 					phone: homeVm.phone,
   	// 					email: homeVm.email,
-  	// 					budget: homeVm.budget};			
+  	// 					budget: homeVm.budget};
 
 			// 	  		$http({
 			// 			  method: 'POST',
@@ -146,10 +146,10 @@
 			// 			}, function error(res){
 			// 				toastr.error('Sorry for the inconvenience', 'Error');
 			// 				console.log("error", res);
-			// 			});	
+			// 			});
 		 //  			} else {
 		 //  				toastr.warning('Please try again!', 'Incorrect answer to math question')
-		 //  			}	
+		 //  			}
 	  // 			} else {
 	  // 				toastr.warning('Please enter valid phone number', 'Form Incomplete');
 	  // 			}
@@ -158,7 +158,7 @@
   	// 		}
 
 			// homeVm.rand1 = Math.ceil(Math.random()*10);
-  	// 		homeVm.rand2 = Math.ceil(Math.random()*10);	
+  	// 		homeVm.rand2 = Math.ceil(Math.random()*10);
   	// 	}
     }
 
