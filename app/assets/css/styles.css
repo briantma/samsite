@@ -53,6 +53,11 @@ i.fa.fa-youtube-square.social__iconBox__yt, i.fa.fa-instagram.social__iconBox__i
   position: absolute;
   top: 50px; }
 
+.heroImage {
+  height: 100vh;
+  width: 100%;
+}
+
 li.socialIconsNav {
   margin-left: 30px; }
 
@@ -69,14 +74,14 @@ li.socialIconsNav {
   cursor: pointer; }
   .hero__container {
     overflow: hidden; }
-    .hero__container__video {
+    /*.hero__container__video {
       min-height: 100%;
       min-width: 100%;
       position: fixed;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      z-index: -5; }
+      z-index: -5; }*/
 
 .logo__cam {
   position: absolute;
@@ -209,7 +214,7 @@ li.socialIconsNav {
       background-size: cover;
       transition: all 1s ease;
       /*&:hover{
-          
+
           &>h3{
               opacity:0 !important;
           }
@@ -450,8 +455,8 @@ li.socialIconsNav {
         &__container{
            width:100vw;
             &__video{
-                width: 900px;                 
-            } 
+                width: 900px;
+            }
         }
     }
 }*/
