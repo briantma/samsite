@@ -58,6 +58,14 @@ i.fa.fa-youtube-square.social__iconBox__yt, i.fa.fa-instagram.social__iconBox__i
   width: 100%;
 }
 
+.squareHome {
+  display: inline-block;
+  height: 21rem;
+  width: 21rem;
+  text-align: center;
+  border: 1px solid black; 
+}
+
 li.socialIconsNav {
   margin-left: 30px; }
 
@@ -132,6 +140,8 @@ li.socialIconsNav {
   min-height: 100vh;
   background-color: white;
   position: relative;
+  text-align: center;
+  margin-top: 100px;
   overflow: hidden; }
 
 .navbar {
