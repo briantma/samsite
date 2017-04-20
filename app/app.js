@@ -9,18 +9,23 @@
 		.config(function($stateProvider, $urlRouterProvider, toastrConfig){
 			$urlRouterProvider.otherwise("/");
 			$stateProvider
-				.state('home',{
+				.state('base',{
 					url:"/",
+					templateUrl: 'site/partials/base.html',
+					controller: 'BaseCtrl as ctrl'
+				})
+				.state('base.home',{
+					url:"home",
 					templateUrl: 'site/partials/home.html',
 					controller: 'HomeCtrl as ctrl'
 				})
-				.state('collection',{
-					url:"/collection",
+				.state('base.collection',{
+					url:"collection",
 					templateUrl: 'site/partials/collection.html',
 					controller: 'CollectionCtrl as ctrl'
 				})
-				.state('connect',{
-					url:"/connect",
+				.state('base.connect',{
+					url:"connect",
 					templateUrl: 'site/partials/connect.html',
 					controller: 'ConnectCtrl as ctrl'
 				})
