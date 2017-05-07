@@ -2,7 +2,7 @@ var express = require('express');
 // var bodyParser = require('body-parser');
 // var nodemailer = require('nodemailer');
 
-var PORT = process.env.PORT || 8080
+var PORT = process.env.PORT || 80
 var app = express();
 
 app.use(express.static(__dirname + './../app/'));
