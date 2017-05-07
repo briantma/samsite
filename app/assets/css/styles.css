@@ -14,11 +14,19 @@ body {
   height: 100vh;
   background: white; }
 
-h2 {
-  font-family: 'Norwester';
-  font-size: 45px;
-  height: 35px;
-  line-height: 0.75; }
+.construction {
+  width: 352px;
+  margin: 60px auto; }
+  .constructionicon {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/construction.png");
+    background-size: cover;
+    margin: 0 auto; }
+
+.construction1 {
+  width: 352px;
+  margin: 10px auto; }
 
 h3, strong {
   font-family: 'Kollektif';
@@ -69,7 +77,6 @@ li.socialIconsNav {
   .hero__container {
     overflow: hidden;
     height: 100%;
-    background-image: url("../images/hero-wood.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; }
@@ -82,51 +89,20 @@ li.socialIconsNav {
       transform: translate(-50%, -50%);
       z-index: -5; }
 
-.logo__cam {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -75%); }
-  .logo__cam img {
-    height: 50px;
-    margin-top: 10px;
-    /*-webkit-filter: invert(100%); */ }
-.logo__name {
-  z-index: 10;
-  left: 50%;
-  transform: translateX(-50%); }
-  .logo__name--Abs {
-    position: absolute;
-    top: 50%; }
-  .logo__name--Fix {
-    position: fixed;
-    top: 0; }
-  .logo__name img {
-    height: 75px;
-    /*margin-top:10px;*/
-    z-index: 10;
-    /*-webkit-filter: invert(100%);    */ }
-.logo__chev {
-  height: 25px;
-  width: 25px;
-  color: white;
-  font-size: 25px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 250%); }
-  .logo__chev > i {
-    height: 25px;
-    width: 25px;
-    /*-webkit-filter: invert(100%);
-    filter: invert(100%);*/ }
-  .logo__chev:hover {
-    color: black; }
+.navbar-brand {
+  padding: 5px 12px; }
+
+.nav-logo {
+  background-image: url("../images/logoblack.png");
+  height: 40px;
+  width: 26px;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 #cover {
   z-index: 2;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: white;
   position: relative;
   overflow: hidden; }
