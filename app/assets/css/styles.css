@@ -376,9 +376,6 @@ li.socialIconsNav {
         cursor: pointer; }
     .social__iconBox__yt {
       transition: all 0.5s ease; }
-      .social__iconBox__yt:hover {
-        color: #bb0000;
-        transition: all 0.5s ease; }
     .social__iconBox__fb {
       transition: all 0.5s ease; }
       .social__iconBox__fb :hover {
