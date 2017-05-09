@@ -310,8 +310,6 @@ li.socialIconsNav {
       -webkit-text-fill-color: transparent;*/ }
     .portfolio__contents > a:hover {
       text-decoration: none; }
-  .portfolio__contents__yt:hover > i, .portfolio__contents__yt:hover > p {
-    color: #bb0000; }
   .portfolio__contents__fb:hover > i, .portfolio__contents__fb:hover > p {
     color: #3b5998; }
   .portfolio__contents__ig {
